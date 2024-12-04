@@ -120,25 +120,8 @@ button:active {
 }
 
 #user-input {
-  height: auto; /* Formun yüksekliğini içeriğe göre yap */
-  display: flex; /* Flexbox etkinleştir */
-  flex-direction: column; /* Dikey hizala */
-  justify-content: center; /* Dikey ortala */
-  align-items: center; /* Yatay ortala */
-  gap: 1rem; /* Elemanlar arasında boşluk */
-}
-
-#user-input {
-  width: 400px; /* Formun genişliği */
-  max-width: 600px; /* Form için maksimum genişlik */
-  margin: 0 auto; /* Ortalamak için */
-}
-
-#user-input .form-control {
-  max-width: 500px; /* Girdi alanlarının maksimum genişliği */
-  width: 100%; /* Küçük ekranlarda tam genişlik */
-}
-
-#user-input button {
-  margin-top: 1rem; /* Butonun üstüne boşluk ekle */
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ff0062;
+  background: #f7f7f7;
 }
