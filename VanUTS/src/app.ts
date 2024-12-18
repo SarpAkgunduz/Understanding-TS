@@ -1,7 +1,7 @@
 // autobind decorator
 function autobind(
   _: any,
-  methodName: string,
+  _2: string,
   descriptor: PropertyDescriptor
 ) {
   const originalMethod = descriptor.value;
